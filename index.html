@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Yes! Radio">
+  <meta property="og:description" content="Tune in to Yes! Radio for your favorite music.">
+  <meta property="og:image" content="https://i.ibb.co/Q8SMSWd/YES.png">
+  <meta property="og:url" content="https://yes.tomsystems.uk/">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/stackblur-canvas/1.4.1/stackblur.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>YES! Radio</title>
+</head>
+<body>
+  <div class="container">
+    <div class="radio-box">
+      <div class="dj-info">
+        <img id="dj-avatar" alt="DJ Avatar">
+        <h4 id="dj-name">DJ Name</h4>
+        <div>
+          <a id="spotify" href="#" target="_blank" class="spotify-icon">
+            <i class="fab fa-spotify"></i>
+          </a>
+        </div>
+      </div>
+      <div class="radio-art">
+        <!-- Loading Icon -->
+        <div id="loading-icon" class="loading-icon">
+          <i class="fas fa-circle-notch fa-spin"></i>
+        </div>
+
+        <img id="radio-art" src="" alt="" width="350" height="350">
+        <div class="art-overlay">
+          <button class="play-button"><i class="fas fa-play"></i></button>
+        </div>
+        <div class="volume-and-spotify">
+          <div class="volume-slider">
+            <input type="range" id="slider" class="slider" min="0" max="100">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
